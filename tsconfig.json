@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "noImplicitAny": true,
+    "strictNullChecks": true,
+    "moduleResolution": "node",
+    "allowSyntheticDefaultImports":false,
+    "sourceMap": true,
+    "strict": true,
+    "allowJs": true,
+    "target": "ES2017",
+    "module": "CommonJS"
+  },
+  "include": ["./src/apps/*"],
+  "exclude": [
+    "node_modules"
+  ]
+}

@@ -1,0 +1,21 @@
+body {
+    margin: 200 auto;
+    width: 0;
+    height: 0;
+}
+#root > button{
+    font-family: monospace;
+    font-size: 20;
+    font-weight: 600;
+    width: 140;
+    height: 50;
+    text-align: center;
+    border:1px solid #009EFF;
+    border-radius: .3rem;
+    background-color: #ffff;
+    cursor: pointer;
+}
+#root > button:hover{
+    background-color: #009EFF;
+    transition: .4s;
+}
